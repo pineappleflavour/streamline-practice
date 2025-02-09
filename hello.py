@@ -1,3 +1,5 @@
+#pip3 install streamlit
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -42,3 +44,6 @@ if data is not None:
         
 else:
     st.write('No File Uploaded')
+
+# Run the app
+# streamlit run hello.py
